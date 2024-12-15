@@ -1,0 +1,63 @@
+.address-background {
+  border-radius: 0px 16px 16px 0px;
+  background: var(
+    --Viofit,
+    linear-gradient(68deg, #47f6ab 14.39%, #60e3eb 79.59%)
+  );
+  height: 140px;
+}
+
+.address-background-mobile {
+  background: linear-gradient(297deg, #47f6ab 26.26%, #60e3eb 102.21%);
+}
+
+.address-button {
+  border-radius: 58px;
+  border: 3px solid #47f6ab;
+  background: rgba(255, 255, 255, 0.76);
+  backdrop-filter: blur(12.800000190734863px);
+}
+.address-custom {
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  backdrop-filter: blur(12.800000190734863px);
+}
+.address-custom-text {
+  background: var(
+    --Viofit,
+    linear-gradient(68deg, #47f6ab 14.39%, #60e3eb 79.59%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.stretching-background {
+  border-radius: 192.5px;
+  border: 15px solid #f8f0fd;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat, #d9d9d9;
+}
+
+.stretching-background-2 {
+  border-radius: 192.5px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat, #d9d9d9;
+}
+
+.color-transition-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-radius: 58px;
+  border: 3px solid #47f6ab;
+  transition: all 0.5s ease;
+}
+
+.color-transition-btn:hover {
+  background-color: #47f6ab;
+  color: white;
+}

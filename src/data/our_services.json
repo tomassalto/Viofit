@@ -1,0 +1,45 @@
+{
+  "our_services_data": [
+    {
+      "icon": "/icons/our-services/weights.svg",
+      "title": "Entrenamiento Funcional Adaptado",
+      "strong": "Una propuesta revolucionaria basada en evidencia científica.",
+      "description": "Es la adaptación a entornos variables y a circunstancias de esfuerzo aeróbico. En resumen, puede ser el entrenamiento que estas buscando."
+    },
+    {
+      "icon": "/icons/our-services/equipment.svg",
+      "title": "Pilates Reformer",
+      "description": "Transforma tu cuerpo, fortalece tu mente. Descubre la revolución del fitness con la elegancia del Pilates Reformer."
+    },
+    {
+      "icon": "/icons/our-services/line.svg",
+      "title": "Quiropraxia",
+      "description": "La clave para una espalda feliz. Recupera tu bienestar y movilidad con el poder de la quiropraxia."
+    },
+    {
+      "icon": "/icons/our-services/time.svg",
+      "title": "Kinesología",
+      "description": "Tu camino hacia la recuperación. Restaura tu cuerpo, encuentra alivio y recupera tu calidad de vida con la ayuda de expertos en movimiento."
+    },
+    {
+      "icon": "/icons/our-services/person.svg",
+      "title": "Yoga Hatha",
+      "description": "Encuentra equilibrio y paz en cada postura. Descubre la serenidad interior con la práctica del Yoga Hatha."
+    },
+    {
+      "icon": "/icons/our-services/heartbeat.svg",
+      "title": "Medicina deportiva",
+      "description": "Estás en las mejores manos para alcanzar tu máximo potencial. ¡Potencia tu rendimiento con confianza!"
+    },
+    {
+      "icon": "/icons/our-services/carrot.svg",
+      "title": "Nutrición",
+      "description": "Tu receta para una vida saludable. Dejá que los alimentos se conviertan en tus aliados en el camino hacia el bienestar."
+    },
+    {
+      "icon": "/icons/our-services/smiley.svg",
+      "title": "Kinesiología Estética",
+      "description": "La kinesiología estética combina los principios de la kinesiología y técnicas estéticas no invasivas."
+    }
+  ]
+}

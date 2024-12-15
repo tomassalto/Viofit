@@ -1,0 +1,68 @@
+.custom-carousel .control-dots {
+  bottom: 20px;
+}
+
+.custom-carousel .control-dots .dot {
+  background: #333333;
+  width: 5px;
+  height: 5px;
+}
+
+.custom-carousel .control-dots .dot.selected,
+.custom-carousel .control-dots .dot:hover {
+  background: #000000;
+}
+
+.carousel-status {
+  visibility: hidden;
+}
+
+.carousel.carousel-slider {
+  overflow: visible;
+}
+
+/* .slide.selected div img,
+.slide.previous div img,
+.slide.selected,
+.slide.previous,
+.slider-wrapper.axis-horizontal,
+.carousel,
+.slide div,
+.slider-wrapper,
+.slide {
+  border-radius: 1.5rem 1.5rem 1.5rem 1.5rem !important;
+} */
+/* 
+.custom-carousel .slide img {
+  border-radius: 1.5rem 1.5rem 1.5rem 1.5rem !important;
+  padding-right: 50px;
+} */
+
+/* .custom-carousel .carousel .slide {
+  border-radius: 1.5rem 1.5rem 1.5rem 1.5rem !important;
+  padding-right: 50px;
+} */
+
+/* .custom-carousel .carousel .slider-wrapper {
+  border-radius: 1.5rem 1.5rem 1.5rem 1.5rem !important;
+  padding-right: 50px;
+} */
+
+/* .custom-carousel .carousel.carousel-slider .slider-wrapper {
+  border-radius: 1.5rem 1.5rem 1.5rem 1.5rem !important;
+  padding-right: 50px;
+} */
+
+.custom-carousel .carousel-slider .slider-wrapper.axis-horizontal .slider {
+  transition: transform 3s ease-in-out;
+}
+
+/* .custom-carousel .carousel .slide {
+  padding-right: 50px;
+} */
+
+.slider.animated .slide {
+  border-radius: 1.5rem 1.5rem 1.5rem 1.5rem !important;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,26 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar";
+import Carousel from "../components/Carousel/Carousel";
+import AboutVioFit from "../components/AboutVioFit.astro";
+import OurServices from "../components/OurServices.astro";
+import GymPass from "../components/GymPass.astro";
+import Address from "../components/Address/Address.astro";
+import FollowUs from "../components/FollowUs/FollowUs.astro";
+import ContactForm from "../components/ContactForm/ContactForm";
+import Footer from "../components/Footer.astro";
+import WhatsappButton from "../components/WhatsappButton.astro";
+---
+
+<Layout title="Viofit - Centro de Rehabilitación y Entrenamiento">
+  <Navbar client:visible />
+  <WhatsappButton />
+  <Carousel client:only />
+  <AboutVioFit />
+  <OurServices />
+  <GymPass />
+  <Address />
+  <FollowUs />
+  <ContactForm client:only />
+  <Footer />
+</Layout>

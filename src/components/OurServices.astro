@@ -1,0 +1,63 @@
+---
+import { Image } from "astro:assets";
+import { our_services_data } from "../data/our_services.json";
+---
+
+<div id="ourservices" class="hidden xmd:inline h-24"></div>
+<div class="px-4 xmd:pt-20 relative flex flex-col items-center overflow-hidden">
+  <Image
+    src="https://sos.neowyze.tech/viofit/our-services/arrow_1.webp"
+    alt="arrow_1"
+    loading="eager"
+    width={101}
+    height={101}
+    class="absolute right-[-30px] top-0 hidden xmd:block"
+  />
+  <Image
+    src="https://sos.neowyze.tech/viofit/our-services/arrow_1.webp"
+    alt="arrow_2"
+    loading="eager"
+    width={101}
+    height={101}
+    class="absolute right-20 top-20 hidden xmd:block"
+  />
+  <div class="flex flex-col items-center xmd:items-start xmd:justify-center">
+    <h2
+      class="mb-[60px] text-[32px] text-center text-medium_gray font-bold w-full xmd:text-left lg:w-auto xmd:flex xmd:items-center xmd:text-5xl"
+    >
+      Nuestros servicios
+    </h2>
+    <div
+      class="w-full flex flex-col gap-4 xmd:grid xmd:grid-cols-2 xmd:gap-3 xmd:gap-y-6 hd:gap-x-6"
+    >
+      {
+        our_services_data.map((service) => (
+          <div class="flex flex-col items-center text-center justify-center mb-4 xmd:flex-row xmd:justify-start xmd:items-start xmd:gap-3 xmd:mb-0 lg:justify-center hd:gap-x-6">
+            <div class="xmd:mt-1">
+              <Image
+                src={service.icon}
+                alt="service icon"
+                loading="eager"
+                width={64}
+                height={64}
+              />
+            </div>
+            <div class="flex flex-col text-center items-center xmd:text-left xmd:items-start text-medium_gray">
+              <h3 class="text-[18px] xmd:align-top xmd:top-0 py-4 font-bold w-[290px] xs:w-[358px] xsm:w-[468px] xmd:py-0 xmd:pb-2 xmd:w-[270px] lg:w-[350px] xl:w-[450px] mac:w-[550px] fullhd:w-[750px]">
+                {service.title}
+              </h3>
+              {service.strong && (
+                <p class="font-bold text-[14px] w-[290px] xs:w-[358px] xsm:w-[468px] sm:w-full xmd:w-[270px] lg:w-[350px] xl:w-[450px] mac:w-[550px] fullhd:w-[750px]">
+                  {service.strong}
+                </p>
+              )}
+              <p class="text-[14px] xs:w-[358px] w-[290px] xsm:w-[468px] sm:w-[500px] xmd:w-[270px] lg:w-[350px] xl:w-[450px] mac:w-[550px] fullhd:w-[750px]">
+                {service.description}
+              </p>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</div>

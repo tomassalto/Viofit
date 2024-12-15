@@ -1,0 +1,128 @@
+---
+import { Image } from "astro:assets";
+import "./FollowUs.css";
+---
+
+<div class="hidden xmd:block">
+  <div class="grid grid-cols-12 mb-10">
+    <div class="col-span-1 max-lg:col-span-full"></div>
+    <div class="col-span-3 max-lg:col-span-4">
+      <div
+        class="bg-white w-fit h-fit rounded-[225px] follow-us-bg mx-auto lg:mr-1"
+      >
+        <Image
+          src="https://sos.neowyze.tech/viofit/follow-us/image_1.webp"
+          alt="follow-us image-1"
+          loading="eager"
+          width={281}
+          height={422}
+          class="follow-us-images p-2 w-[281px] h-[422px] max-lg:w-[180px] max-lg:h-[300px]"
+        />
+      </div>
+    </div>
+    <div class="col-span-4 max-lg:col-span-4">
+      <div
+        class="text-[60px] max-xl:text-[60px] max-lg:text-[40px] flex justify-center flex-col text-center"
+      >
+        <p class="text-medium_gray">Seguinos en</p>
+        <p class="font-semibold text-medium_gray">Instagram</p>
+        <div class="bg-medium_gray rounded-2xl w-[90%] mx-auto">
+          <p
+            class="follow-us-viofit max-lg:text-[32px] max-xl:text-[42px] text-[50px] max-md:text-[30px]"
+          >
+            @viofit.rosario
+          </p>
+        </div>
+        <a
+          class="w-[120px] h-[120px] mx-auto group inline-block rounded-full bg-gradient-to-r from-[#47f6ab] via-[#47f6ab] to-[#60e3eb] mt-[60px] text-white focus:outline-none focus:ring active:text-opacity-75"
+          href="https://www.instagram.com/viofit.rosario/"
+        >
+          <span
+            class="block rounded-full w-[120px] h-[120px] bg-medium_gray px-8 py-3 text-sm font-medium group-hover:bg-transparent hover:text-medium_gray transition ease-linear duration-300"
+          >
+            <p class="pt-5 text-[20px] font-semibold">Seguir</p>
+            <p class="pt-5 text-[40px] font-semibold">+</p>
+          </span>
+        </a>
+      </div>
+    </div>
+    <div class="col-span-3 max-lg:col-span-4">
+      <div
+        class="bg-white w-fit h-fit rounded-[225px] follow-us-bg mx-auto lg:ml-1"
+      >
+        <Image
+          src="https://sos.neowyze.tech/viofit/follow-us/image_2.webp"
+          alt="follow-us image-2"
+          loading="eager"
+          width={281}
+          height={422}
+          class="follow-us-images p-2 w-[281px] h-[422px] max-lg:w-[180px] max-lg:h-[300px]"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="grid grid-cols-12 mb-[100px]">
+    <div class="col-span-1 xl:col-span-2"></div>
+    <div
+      class="bg-white w-fit h-fit rounded-[225px] follow-us-bg col-span-5 xl:col-span-4 mx-auto rotate-[10deg] max-lg:mt-4 max-xl:mt-4"
+    >
+      <Image
+        src="https://sos.neowyze.tech/viofit/follow-us/image_3.webp"
+        alt="follow-us image-3"
+        loading="eager"
+        width={551}
+        height={422}
+        class="follow-us-images p-2 h-full w-[551px] max-lg:w-[350px] max-xl:w-[450px] max-md:w-[350px] followUs3"
+      />
+    </div>
+    <div
+      class="bg-white w-fit h-fit rounded-[225px] follow-us-bg col-span-5 xl:col-span-4 mx-auto rotate-[-10deg] max-lg:mt-4 max-xl:mt-4"
+    >
+      <Image
+        src="https://sos.neowyze.tech/viofit/follow-us/image_4.webp"
+        alt="follow-us image-4"
+        loading="eager"
+        width={551}
+        height={422}
+        class="p-2 h-full w-[551px] max-lg:w-[350px] max-xl:w-[450px] max-md:w-[350px] follow-us-images"
+      />
+    </div>
+    <div class="col-span-1 xl:col-span-2"></div>
+  </div>
+</div>
+
+<div class="block xmd:hidden">
+  <div
+    class="text-[40px] text-medium_gray flex justify-center flex-col mx-auto items-center mt-28 pb-[80px] overflow-x-hidden"
+  >
+    <p>Seguinos en</p>
+    <p class="font-semibold">Instagram</p>
+    <div class="bg-medium_gray rounded-3xl w-fit">
+      <p class="follow-us-viofit">@viofit.rosario</p>
+    </div>
+    <button
+      class="rounded-full w-[120px] h-[120px] bg-medium_gray mx-auto mt-[45px]"
+    >
+      <a
+        href="https://www.instagram.com/viofit.rosario/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <p class="text-[20px] text-white font-semibold">Seguir</p>
+        <p class="text-white font-semibold">+</p>
+      </a>
+    </button>
+    <div
+      class="relative z-10 left-28 bg-white w-[481px] rounded-[225px] follow-us-bg rotate-[-10deg]"
+    >
+      <Image
+        src="https://sos.neowyze.tech/viofit/follow-us/image_4.webp"
+        alt="follow-us image-4"
+        loading="eager"
+        width={551}
+        height={422}
+        class="p-2 w-fit follow-us-images"
+      />
+    </div>
+  </div>
+</div>

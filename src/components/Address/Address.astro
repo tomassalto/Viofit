@@ -1,0 +1,143 @@
+---
+import "./Address.css";
+import { Image } from "astro:assets";
+---
+
+<div id="address" class="w-full mb-20 xmd:mb-[400px]">
+  <div class="block xmd:hidden text-center">
+    <p class="text-[32px] text-medium_gray">Te esperamos en</p>
+    <div
+      class="text-[40px] font-light address-background-mobile text-white w-full"
+    >
+      <p>
+        Mitre <strong class="font-semibold">1380</strong>
+      </p>
+      <p>
+        Corrientes <strong class="font-semibold">1613</strong>
+      </p>
+    </div>
+    <p class="text-[16px] text-medium_gray mt-[16px]">
+      Lunes a Viernes de 8 a 21hs.
+    </p>
+    <div>
+      <a
+        href="https://api.whatsapp.com/send?phone=543415491078"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="text-medium_gray text-[24px] h-[56px] w-[266px] font-semibold p-[10px] flex justify-center items-center mx-auto address-button mt-[32px]"
+      >
+        Hacenos tu consulta
+      </a>
+    </div>
+  </div>
+
+  <div class="hidden xmd:block">
+    <div class="w-full xmd:w-[95%] flex items-center mt-5 xmd:mt-0">
+      <div
+        class="flex items-center text-center xmd:text-left xmd:pl-[70px] lg:pl-28 xl:h-[90px] xl:pl-24 mac:pl-32 hd:pl-40 fullhd:pl-64 2k:pl-[600px] 4k:pl-[1250px]"
+      >
+        <p
+          class="font-medium text-medium_gray text-[32px] xmd:text-[28px] lg:text-[40px] xl:text-6xl"
+        >
+          Te esperamos en
+        </p>
+      </div>
+    </div>
+
+    <div
+      class="address-background bg-medium_gray w-full xmd:w-[95%] flex items-center mt-5 xmd:mt-0"
+    >
+      <div
+        class="flex flex-col text-white text-center xmd:text-left xmd:pl-[70px] lg:pl-28 xl:pl-24 mac:pl-32 hd:pl-40 fullhd:pl-64 2k:pl-[600px] 4k:pl-[1250px]"
+      >
+        <p
+          class="font-light text-[40px] xmd:text-[25px] lg:text-3xl xl:text-[40px] xl:h-[60px] flex items-center gap-2"
+        >
+          Mitre <strong class="font-semibold"> 1380</strong>
+        </p>
+        <p
+          class="flex items-center gap-2 font-light text-[40px] xmd:text-[25px] lg:text-3xl xl:text-[40px] xl:h-[60px]"
+        >
+          Corrientes <strong class="font-semibold"> 1613</strong>
+        </p>
+      </div>
+
+      <div
+        class="absolute right-[180px] mt-[500px] max-lg:mt-[380px] max-xl:right-10 2xl:right-52 3xl:right-[380px] xl:right-14 2k:right-[450px] 4k:right-[980px]"
+      >
+        <Image
+          src="https://sos.neowyze.tech/viofit/address/image_2.webp"
+          alt="stretching image-2"
+          loading="eager"
+          width={560}
+          height={385}
+          class="stretching-background-2 max-xl:h-[285px] max-xl:w-[460px] h-[385px] w-[560px] z-10 max-lg:w-[360px] max-lg:h-[230px]"
+          sizes="(max-width: 768px) 100vw, (min-width: 769px) 560px"
+          style={{ transform: "scaleX(-1)" }}
+        />
+      </div>
+      <div
+        class="address-custom absolute bg-black right-[150px] w-[200px] mb-32 z-40 flex justify-center items-center xmd:right-14 max-lg:h-[50px] lg:right-24 lg:p-2 lg:py-4 xl:w-[220px] xl:p-4 max-xl:right-[100px] hd:right-[280px] max-lg:mb-[50px] 3xl:right-[400px] gap-2 2k:right-[450px] 4k:right-[1020px]"
+      >
+        <div>
+          <Image
+            src="/icons/address/play_circle.svg"
+            alt="play circle icon"
+            loading="eager"
+            width={24}
+            height={24}
+          />
+        </div>
+        <p class="address-custom-text text-[20px] max-xl:text-[18px]">
+          Personalizados
+        </p>
+      </div>
+      <div
+        class="absolute right-52 xmd:right-36 xl:right-40 max-xl:right-40 hd:right-[300px] 2k:right-[550px] 4k:right-[1130px]"
+      >
+        <Image
+          src="https://sos.neowyze.tech/viofit/address/image_1.webp"
+          alt="stretching image-1"
+          loading="eager"
+          width={560}
+          height={385}
+          class="stretching-background max-xl:h-[285px] max-xl:w-[460px] h-[385px] w-[560px] max-lg:w-[360px] max-lg:h-[230px]"
+          sizes="(max-width: 768px) 100vw, (min-width: 769px) 560px"
+        />
+      </div>
+      <div
+        class="address-custom absolute bg-black right-[305px] mt-[600px] z-40 flex justify-center items-center w-[180px] lg:right-[400px] xl:right-[520px] lg:p-2 lg:py-4 xl:w-[190px] xl:p-4 max-lg:mt-[400px] max-lg:h-[50px] 2xl:right-[680px] 3xl:right-[850px] gap-2 2k:right-[910px] 4k:right-[1440px]"
+      >
+        <div>
+          <Image
+            src="/icons/address/stretching.svg"
+            alt="stretching icon"
+            loading="eager"
+            width={24}
+            height={24}
+          />
+        </div>
+        <p class="address-custom-text text-[20px] max-xl:text-[18px]">
+          Profesionales
+        </p>
+      </div>
+    </div>
+    <div class="w-full xmd:w-[95%] flex items-center xmd:mt-[18px]">
+      <div
+        class="flex flex-col text-center xmd:text-left xmd:pl-[71px] lg:pl-[114px] xl:pl-[98px] mac:pl-[131px] hd:pl-[163px] fullhd:pl-[258px] 2k:pl-[601px] 4k:pl-[1251px]"
+      >
+        <p class="text-medium_gray text-[16px] xmd:text-[18px] lg:text-2xl">
+          Lunes a Viernes de 8 a 21hs.
+        </p>
+        <a
+          href="https://api.whatsapp.com/send?phone=543415491078"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="address-button text-medium_gray text-[24px] xmd:text-[18px] h-[56px] w-[266px] xmd:max-lg:w-[220px] xmd:max-lg:h-[40px] font-semibold p-[10px] flex justify-center items-center rounded-full mx-auto xmd:mx-0 mt-[32px] xmd:mt-[50px] xmd:hover:bg-[#47f6ab] xmd:hover:text-white xmd:transition-all xmd:duration-500 lg:text-2xl"
+        >
+          Hacenos tu consulta
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
