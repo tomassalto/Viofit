@@ -10,10 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/netlify": "^6.0.0",
     "@astrojs/node": "^8.3.0",
     "@astrojs/react": "^3.5.0",
     "@astrojs/tailwind": "^5.1.0",
-    "astro": "^4.10.2",
+    "astro": "^5.0.5",
     "dotenv": "^16.4.5",
     "formik": "^2.4.6",
     "react": "^18.3.1",
